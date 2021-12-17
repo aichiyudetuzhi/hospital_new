@@ -1,4 +1,6 @@
-package tech.haowei.sms;
+package com.xinhai.hosp_new.service;
+
+import sun.net.www.protocol.http.HttpURLConnection;
 
 import javax.net.ssl.HttpsURLConnection;
 import java.io.BufferedReader;
@@ -19,7 +21,7 @@ public class Client {
     private String version;
     private String signType;
 
-    Client() {
+    public Client() {
         this.timestamp = System.currentTimeMillis();
         this.version = "1.0";
         this.signType = "md5";

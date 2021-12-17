@@ -1,1 +1,0 @@
-# sms-java-sdk
